@@ -1,0 +1,43 @@
+# Note from the translator to Ghost_chu and his team:
+# This page can help to check: (french + english names)
+# https://minecraft-fr.gamepedia.com/Enchantement#Liste_des_enchantements
+enchi18n:
+  fire_protection: Protection contre le feu
+  sharpness: Tranchant
+  flame: Flamme
+  aqua_affinity: Affinité aquatique
+  punch: Frappe
+  loyalty: Loyauté
+  depth_strider: Agilité aquatique
+  vanishing_curse: Malédiction de disparition
+  unbreaking: Solidité
+  knockback: Recul
+  luck_of_the_sea: Chance de la mer
+  binding_curse: Malédiction du lien éternel
+  fortune: Fortune
+  protection: Protection
+  efficiency: Efficacité
+  mending: Raccommodage
+  frost_walker: Semelles givrantes
+  lure: Appât
+  looting: Butin
+  blast_protection: Protection contre les explosions
+  smite: Châtiment
+  fire_aspect: Aura de feu
+  channeling: Canalisation
+  sweeping: Affilage
+  thorns: Épines
+  bane_of_arthropods: Fléau des arthropodes
+  respiration: Apnée
+  riptide: Impulsion
+  silk_touch: Toucher de soie
+  projectile_protection: Protection contre les projectiles
+  impaling: Empalement
+  feather_falling: Chute amortie
+  power: Puissance
+  infinity: Infinité
+  # 1.14 / bedrock (just in case)
+  # piercing: Perçant
+  # quick_charge: Recharge rapide
+  # multishot: Tir multiple
+

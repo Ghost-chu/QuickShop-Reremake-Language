@@ -1,0 +1,37 @@
+# Note from the translator to Ghost_chu and his team:
+# I suppose all is OK, but key names are not default minecraft names,
+# so I had doubt about a few ones.
+# This page can help to check: (french + english names)
+# https://minecraft-fr.gamepedia.com/Effets_de_potions#Liste_des_effets
+potioni18n:
+  SPEED: Rapidité
+  SLOW: Lenteur
+  FAST_DIGGING: Célérité
+  SLOW_DIGGING: Fatigue
+  INCREASE_DAMAGE: Force
+  HEAL: Soin
+  HARM: Dégâts instantanés
+  JUMP: Saut
+  CONFUSION: Nausée
+  REGENERATION: Régénération
+  DAMAGE_RESISTANCE: Résistance
+  FIRE_RESISTANCE: Résistance au feu
+  WATER_BREATHING: Apnée
+  INVISIBILITY: Invisibilité
+  BLINDNESS: Cécité
+  NIGHT_VISION: Nyctalopie
+  HUNGER: Faim
+  WEAKNESS: Faiblesse
+  POISON: Poison
+  WITHER: Wither
+  HEALTH_BOOST: Bonus de vie
+  ABSORPTION: Absorption
+  SATURATION: Saturation
+  GLOWING: Surbrillance
+  LEVITATION: Lévitation
+  LUCK: Chance
+  UNLUCK: Malchance
+  SLOW_FALLING: Chute lente
+  CONDUIT_POWER: Force de conduit
+  DOLPHINS_GRACE: Grâce du dauphin
+

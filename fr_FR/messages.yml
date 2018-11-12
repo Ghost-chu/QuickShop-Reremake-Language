@@ -1,0 +1,151 @@
+# Couleurs:
+# &0-9, &a-f
+# {0}, {1}, {2}, etc sont des variables. Vous pouvez les déplacer, mais en ajouter d'autres ne fonctionnera pas. Les supprimer ne posera pas de problèmes.
+
+# Données traduites pour le français.
+# ======================================================================
+language-author: "&c&lTranslator: &b&larboriginal"
+language-contributors: "&c&lContributors: &b&lTimtower, Netherfoam, KaiNoMood and Mgazul"
+language-version: "&c&lSupport Version: &b&lReremake 1.2.5.2"
+language-country: "&c&lLanguage Zone: &b&lEnglish (en_US)"
+# ======================================================================
+
+# Note from the translator to Ghost_chu and his team:
+# I've replace "QuickShop" by "boutique"* which means "shop" in french,
+# because french people are not very good (in general) in foreign languages.
+# But if you prefer the plugin name stays in the translated messages,
+# simply do a bulk replace.
+# (*) "boutiques" is the plural form for "boutique"
+
+language-version: 2 # Ne modifiez pas ceci, sauf si vous savez ce que vous faîtes !
+
+not-looking-at-shop: "&cAucune boutique trouvée, tu dois en regarder une."
+no-anythings-in-your-hand: "&cIl n'y a rien dans ta main."
+no-permission: "&cTu n'as pas la permission de faire ça."
+no-creative-break: "&cTu ne peux pas casser les boutiques d'autres joueurs en mode créatif. Mets toi plutôt en survie."
+no-double-chests: "&cTu n'as pas la permission de créer une boutique avec un double coffre."
+shop-already-owned: "&cC'est déjà une boutique."
+chest-was-removed: "&cCoffre supprimé."
+price-too-cheap: "&cLe prix doit être supérieur à &e$0.01"
+no-price-change: "&cLe prix n'a pas changé !"
+you-cant-afford-a-new-shop: "&cCréer une nouvelle boutique coûte {0}."
+player-bought-from-your-store-tax: "&c{0} a acheté {1} {2} dans ta boutique, et tu as payé {3} de taxes."
+you-cant-afford-to-change-price: "&cChanger le prix dans ta boutique coûte {0}."
+success-created-shop: "&aBoutique créée."
+success-removed-shop: "&aBoutique supprimée."
+shops-arent-locked: "&cAttention, les boutiques ne sont PAS protégées du vol ! Si tu veux y remédier, sécurise les avec LWC, Lockette, etc !"
+shop-creation-cancelled: "&cCréation de boutique annulée."
+shop-purchase-cancelled: "&cAchat annulé."
+shop-stock-too-low: "&cLa boutique n'a que {0} {1} en stock."
+you-cant-afford-to-buy: "&cÇa te coûterait {0}, mais tu n'as que {1}."
+negative-amount: "&cHeu... tu ne peux pas mettre un montant négatif !"
+player-bought-from-your-store: "&c{0} a acheté {1} {2} dans ta boutique."
+shop-out-of-stock: "&5Ta boutique en {0} / {1} / {2} n'a plus de {3}"
+shop-has-no-space: "&cLa boutique a seulement la place pour {0} {1}."
+you-dont-have-that-many-items: "&cTu n'as que {0} {1}."
+the-owner-cant-afford-to-buy-from-you: "&cÇa coûterait {0} mais le propriétaire n'as que {1}."
+player-sold-to-your-store: "&a{0} a vendu {1} {2} dans ta boutique."
+shop-out-of-space: "&5Ta boutique en {0} / {1} / {2} est pleine."
+fee-charged-for-price-change: "&aTu paies &c{0}&a pour changer le prix."
+price-is-now: "&aLe nouveau prix est &e{0}."
+thats-not-a-number: "&cNombre invalide."
+no-price-given: "&cMerci d'indiquer un prix."
+average-price-nearby: "&aPrix moyen à proximité : &e{0}"
+shop-has-changed: "&cLa boutique que tu as voulu utiliser a été modifiée depuis que tu as cliqué dessus !"
+shop-not-exist: "&cIl n'y a pas de boutique."
+nearby-shop-this-way: "&aLa boutique est à {0} blocs de toi."
+no-nearby-shop: "&cPas de boutiques correspondantes {0} blocs autour."
+buying-more-than-selling: "&cATTENTION : Tu achètes plus d'items que tu n'en vends !"
+not-enough-space: "&cTu as seulement la place pour {0} supplémentaires !"
+refill-success: "&aRéapprovisionnement réussi."
+empty-success: "&aVidage réussi."
+admin-shop: "BoutiqueAdmin"
+unknown-owner: "Inconnu"
+owner-bypass-check: "&eTu contournes toutes les vérifications, transaction réussie (c'est ta boutique)."
+reached-maximum-can-create: "&cTu as déjà créé un maximum de {0}/{1} boutiques !"
+restricted-prices: "&cPrix restreints pour {0} : {1} minimum, {2} maximum"
+no-enough-money-to-keep-shops: "&cTu n'as pas assez d'argent pour garder tes boutiques ! Toutes tes boutiques ont été supprimées..."
+
+menu:
+    successful-purchase: "&aAchats réussis :"
+    successfully-sold: "&aVentes réussies :"
+    item-name-and-price: "&e{0} {1} &apour &e{2}"
+    sell-tax: "&aTu as payé &e{0} &ade taxes."
+    sell-tax-self: "&aTu possèdes cette boutique donc tu ne paies pas de taxes."
+    enchants: "&5Enchantements"
+    stored-enchants: "&5Enchantements stoqués"
+    shop-information: "&aInformation boutique :"
+    owner: "&aPropriétaire : {0}"
+    item: "&aItem : &e{0}"
+    preview: "&b[Aperçu]"
+    space: "&aPlaces : &e{0}"
+    stock: "&aStock : &e{0}"
+    price-per: "&aPrix par &e{0} &a: &e{1}"
+    total-value-of-chest: "&aValeur totale du coffre : &e{0}"
+    damage-percent-remaining: "&e{0}% &arestants."
+    this-shop-is-buying: "&aCette boutique &dACHÈTE&a des items."
+    this-shop-is-selling: "&aCette boutique &bVEND&a des items."
+    effects: "&aEffets : &e{0}"
+
+bypassing-lock: "&cContournement de la protection d'une boutique !"
+that-is-locked: "&cCette boutique est protégée."
+
+how-many-buy: "&aTapes combien tu veux &bACHETER&a dans le chat."
+how-many-sell: "&aTapes combien tu veux &dVENDRE&a dans le chat (tu as &e{0}&a disponible)."
+
+not-allowed-to-create: "&cTu ne peux pas créer de boutique ici."
+blacklisted-item: "&cCet item est prohibé, tu ne peux pas le vendre !"
+how-much-to-trade-for: "&aTapes la valeur d'un &e{0}&a dans le chat."
+
+command:
+   #success-created-unlimited: "&aBoutique illimitée créée."
+   toggle-unlimited: "&aLa boutique est maintenant {0}"
+   no-owner-given: "&cPas de propriétaire indiqué. Tapes &a/qs setowner <joueur>&c"
+   new-owner: "&aNouveau propriétaire : &e{0}"
+   now-buying: "&dACHÈTE&a &amaintenant &e{0}"
+   now-selling: "&bVEND &amaintenant &e{0}"
+   cleaning: "&aSuppression des boutiques vides..."
+   reloading: "&aRechargement..."
+   cleaned: "&e{0}&a boutiques nettoyées."
+   no-type-given: "&cUtilisation : /qs find <item>"
+   no-amount-given: "&cPas de montant indiqué. Tapes &a/qs refill <montant>&c"
+   description:
+       title: "&aAide boutique"
+       unlimited: "&eRend une boutique illimitée"
+       setowner: "&eChange le propriétaire de la boutique"
+       buy: "&ePasse une boutique en mode &dACHAT"
+       sell: "&ePasse une boutique en mode &bVENTE"
+       clean: "&eSupprime tous les boutiques vides (chargées)"
+       price: "&eModifie le prix d'une boutique"
+       find: "&eLocalise la boutique la plus proche pour un type donné."
+       reload: "&eRecharge la configuration de QuickShop depuis le fichier config.yml"
+       refill: "&eAjoute un nombre donné d'items à une boutique"
+       empty: "&eVide le stock d'une boutique"
+       create: "&eCrée une nouvelle boutique avec le coffre pointé"
+
+signs:
+    header: "&c{0}"
+    selling: "Vente de {0}"
+    buying: "Achat de {0}"
+    item: "{0}"
+    price: "{0} chaque"
+
+controlpanel:
+    infomation: "&aPanneau de contrôle boutique :"
+    setowner: "&aPropriétaire : &b{0} &e[&d&lChange&e]"
+    setowner-hover: "&eRegarde la boutique que tu veux modifier et clique pour changer le propriétaire."
+    unlimited: "&aIllimité : {0} &e[&d&lChange&e]"
+    unlimited-hover: "&eRegarde la boutique que tu veux modifier et clique pour activer ou désactiver."
+    mode-selling: "&aType de boutique : &bVente &e[&d&lChange&e]" #---
+    mode-selling-hover: "&eRegarde la boutique que tu veux modifier et clique pour changer."
+    mode-buying: "&aType de boutique : &bAchat &e[&d&lChange&e]"
+    mode-buying-hover: "&eRegarde la boutique que tu veux modifier et clique pour changer."
+    price: "&aPrix : &b{0} &e[&d&lChange&e]"
+    price-hover: "&eRegarde la boutique que tu veux modifier et clique pour définir un nouveau prix."
+    refill: "&aRemplissage : Réapprovisionne la boutique &e[&d&lOK&e]"
+    refill-hover: "&eRegarde la boutique que tu veux modifier et clique pour réapprovisionner."
+    empty: "&aLiquidation : Supprime tous les items &e[&d&lOK&e]"
+    empty-hover: "&eRegarde la boutique que tu veux modifier et clique pour vider."
+    remove: "&c&l[Supprime la boutique]"
+    remove-hover: "&eClique pour supprimer cette boutique."
+
