@@ -96,7 +96,7 @@ command:
   now-debuging: '&aSuccessfully switch to developer mode, Reloading QuickShop...'
   now-nolonger-debuging: '&aSuccessfully switch to production mode, Reloading QuickShop...'
   toggle-unlimited: '&a商店现在 {0}'
-  no-owner-given: '&c此商店没有所有者. 使用&a/qs 确定一个所有者<player>&c'
+  no-owner-given: '&c此商店没有所有者. 使用&a/qs owner <player>&c'
   new-owner: '&a新的所有者: &e{0}'
   now-buying: '&a商店类型更改为&d收购'
   now-selling: '&a商店类型更改为&d出售'
