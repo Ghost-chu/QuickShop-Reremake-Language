@@ -11,13 +11,13 @@ language-version: "&c&lSupport Version: &b&lReremake 1.2.5.2"
 language-country: "&c&lLanguage Zone: &b&lEnglish (en_US)"
 # ======================================================================
 
-language-version: 3
+language-version: 7
 
 not-looking-at-shop: "&cNo QuickShop found. You must be looking at one."
 no-anythings-in-your-hand: "&cNo anythings in your hand."
 no-permission: "&cYou do not have permission to do that."
 no-creative-break: "&cYou cannot break other players shops in creative mode.  Use survival instead."
-no-double-chests: "&cYou don't have permission to create a double-chest shop."
+no-double-chests: "&cYou cannot break other players shops in creative mode.  Use survival instead or use SuperTool ({0})."
 shop-already-owned: "&cThat is already a shop."
 chest-was-removed: "&cThat chest was removed."
 price-too-cheap: "&cPrice must be greater than &e$0.01"
@@ -59,6 +59,8 @@ owner-bypass-check: "&eBypass all check,Trade successful! (You are shop owner)"
 reached-maximum-can-create: "&cYou have already created a maximum of {0}/{1} shops!"
 restricted-prices: "&cRestricted prices for {0}: min {1} , max {2}"
 no-enough-money-to-keep-shops: "&cYou had no money to keep your shops! All shops removed..."
+nothing-to-flush: "&aYou had no new shop message."
+break-shop-use-supertool: "&eYou break the shop by use SuperTool."
 menu:
     successful-purchase: "&aSuccessfully Purchased:"
     successfully-sold: "&aSuccessfully Sold:"
@@ -103,6 +105,8 @@ command:
    cleaned: "&aCleaned &e{0}&a shops"
    no-type-given: "&cUsage: /qs find <item>"
    no-amount-given: "cNo amount given. Use &a/qs refill <amount>&c"
+   now-debuging: "&aSuccessfully switch to production mode, Reloading QuickShop..."
+   now-nolonger-debuging: "&aSuccessfully switch to developer mode, Reloading QuickShop..."
    description:
        title: "&aQuickShop Help"
        unlimited: "&eMakes a shop unlimited"
@@ -116,8 +120,9 @@ command:
        refill: "&eAdds a given number of items to a shop"
        empty: "&eRemoves all stock from a shop"
        create: "&eCreates a new shop at the target chest"
-       debug: "&ePrint debug message"
-       
+       debug: "&eSwitch to developer mode"
+       fetchmessage: "&eFetch unread shop message"
+       info: "&eShow QuickShop Statistics"
 signs:
     header: "&c{0}"
     selling: "Selling {0}"
@@ -143,22 +148,11 @@ controlpanel:
     empty-hover: "&eLooking you want changing shop and click to clear."
     remove: "&c&l[Remove Shop]"
     remove-hover: "&eClick to remove this shop."
-    sign:
-      owner: 
-        #Highly recommand keep line1 blank
-        line1: ""
-        line2: "Enter"
-        line3: "new owner name"
-        line4: "at first line"
-      price: 
-        #Highly recommand keep line1 blank
-        line1: ""
-        line2: "Enter"
-        line3: "new shop price"
-        line4: "at first line"
-      refill: 
-        #Highly recommand keep line1 blank
-        line1: ""
-        line2: "Enter amount"
-        line3: "you want fill"
-        line4: "at first line"
+    
+tabcomplete:
+# /qs price [price] or /qs create [price]
+    price: [price]
+# /qs find [range]
+    range: [range]
+# /qs refill [amount]
+    amount: [amount]
