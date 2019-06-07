@@ -1,33 +1,33 @@
 #Default config: https://github.com/KaiKikuchi/QuickShop/blob/master/src/main/resources/config.yml
 
-#Do not touch if you not clear know about this
+#Do not touch this if you don't know what it means.
 config-version: 8
 
-#Do not touch if you not know what is this
+#Do not touch if you not know what is this.
 dev-mode: false
 
 #Tax amount (decimal) - Eg, P1 buys $50 worth of stuff from P2.  Therefore, P1 loses $50, P2 gains $(1-0.05)*50, and tax-account gains $(0.05)*50.
 tax: 0.05
 
-#The fake player who money from taxing people goes to
+#The fake player who takes tax.
 tax-account: tax
 
-#Whether or not to show taxes paid when selling to a shop
+#Whether or not to show taxes paid when selling to a shop.
 show-tax: false
 
 #Should we log transactions/creations to Bukkit\Plugins\QuickShop\qs.log?
 log-actions: true
 
-#For item-item based economies that don't use virtual coins.
+#For item-item based economies that don't use virtual currency.
 whole-number-prices-only: false
 
 #Force bukkit chat handler (https://github.com/KaiKikuchi/QuickShop/issues/10)
 force-bukkit-chat-handler: false
 
-#Disallow QuickShop-Reremake send anonymous metrics data to bStats.
+#Disable QuickShop-Reremake send anonymous metrics data to bStats.
 disabled-metrics: false
 
-#Should allow QS to check update on SpigotMC.org?
+#Should allow QS to check for updates on SpigotMC.org?
 updater: true
 
 database:
@@ -47,7 +47,7 @@ database:
     
 #Limits the number of shops a person can create and own at a single time.
 limits:
-    #Disable these if you're not using them! If this is false, the rest of this section is ignored
+    #Disable this if you dont want limits on shop creation. If this is false, the rest of this section is ignored
     use: false
     
     #The default number of shops players can make
@@ -71,49 +71,49 @@ shop-blocks:
     - TRAPPED_CHEST
 
 shop:
-    #Cost to make a stall
+    #Cost to make a shop
     cost: 10
-    #Should we refund when their shops are deleted/removed/broken?
+    #Refund if a shop is deleted/broken/removed
     refund: false
 
-    #Is there a fee for changing prices on a shop (Help deter endless undercutting)
+    #Whether if there should or shouldn't be a fee for changing prices on a shop (Help deter endless undercutting)
     price-change-requires-fee: true
-    #If price changes require a fee, how much is the fee
+    #Cost of changing shop price if value above is true
     fee-for-price-change: 50
 
-    #Should we try and lock their shops from other players, so people can't steal from them?
+    #Lock shops so that player cannot steal from them
     lock: true
     
-    #Should we require players be sneaking to create and use shops?
+    #Requies a player to sneak to create and use shops if se to true
     sneak-to-create: false
     sneak-to-trade: false
     sneak-to-control: false
     
-    #Should we automatically create the sign for the chest?
+    #Sign will automaticly be created on chest if value is true
     auto-sign: true
     
     #If a player owns an unlimited shop, should they receive the cash from it or not?
-    #If you buy from YOUR unlimited shop, you will NEVER be charged $$, regardless of this setting
+    #If you buy from YOUR unlimited shop, you will NEVER be charged, regardless of this setting
     pay-unlimited-shop-owners: false
     
-    #Still discounts money when shop's owner tradeing with himself shop...
+    #Free if player buys from their own shop
     bypass-owner-check: false
     
-    #Should we place display items on the chests? This may cause duped items, especially for modded servers.
+    #Items float above their respective chests. Items may duplicate if on large servers, specificly modded ones.
     display-items: true
     
     #The plugin will check if the display item is in a valid position every the specified amount of ticks. 0 to disable.
     display-items-check-ticks: 0
     
-    #Use name SafeGuard, Highly recommand turn on, If have trouble with other DropItem holo displauy, you can disabled it in there. BUT MAYBE CAUSE SOME ISSUES.
+    #Use name SafeGuard. Highly recommended to be turned on. If having trouble with other DropItem holo displays, disable there instead. MAY CAUSE ISSUES IF FALSE.
     display-item-use-name: true
     
-    #When someone uses /qs find <item>, how far should we search in blocks?
+    #How far the /qs find <item> command will search
     #This command lets users shop quickly without wasting time searching
-    #Settings > 100 WILL cause lag. Don't do it, or don't cry when your server lags.
+    #Over 100 will cause a lot of lag, so be careful and don't overdo it. 
     find-distance: 45
     
-    #If vault not return coins symbol, QuickShop will use this symbol to replace it.
+    #If vault doesnt return a currency symbol, QuickShop will use this symbol to replace it.
     alternate-currency-symbol: '$'
 
 #List of items to disallow selling of.  Anyone with quickshop.bypass.<itemID> can bypass it    
@@ -145,29 +145,29 @@ blacklist:
   # - FIRE_RESISTANCE;Fire resistance
   # - INVISIBILITY;Invisibility
 
-#WARNING! These all in the testing!
+#WARNING! These are all in testing!
 protect:
-  #Protect shop item can or cannot pull out by HopperMincart (Will remove HopprtMincart
+  #Protect shop items from hopper minecarts (Will destroy minecart)
   minecart: true
-  #Protect shop block can or cannot pick up by entity (Will remove Entity
+  #Protect shops from entities picking them up
   entity: true
-  #Protect shop block can or cannot active by Redstone
+  #Protect shop items from being activated by redstone
   redstone: true
-  #Protect shop block can or cannot break by something growup
+  #Protect shops from being broken by plants and structures being grown.
   structuregrow: true
-  #Protect shop block can or cannot break by Entity and Block explode
+  #Protect shops from explosions
   explode: true
-  #Protect shop block can or cannot pull out by Hopper
+  #Protect shops from being emptied by a hopper
   hopper: true
 lockette:
   private: "[Private]"
   more_users: "[More Users]"
-  #Make Quickshop not cancel break lock sign event(Inpossible break locked chest)
+  #Protect shops from being broken
 #Float items advanced filter manager
-#These all in testing and have many bugs, Use your own risk!
+#These are all in testing and have many bugs, use at your own risk!
 float:
   enable: false
-  #If this is disabled, all options after this will not working.
+  #If this is disabled, all options after this will be ignored.
   item:
     #Item filter
     enable: false
